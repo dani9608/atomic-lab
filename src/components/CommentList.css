@@ -1,0 +1,74 @@
+/* src/components/CommentList.css */
+
+/* Container for the list of comments */
+.comment-list-container {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside container */
+  max-width: 400px; /* Maximum width */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Heading style */
+.comment-list h2 {
+  margin: 0 0 10px 0; /* Margin adjustments */
+  font-size: 1.5em; /* Larger font size */
+  color: #333; /* Darker text color */
+}
+
+/* Styles for the comment list */
+.comment-list {
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for each comment item */
+.comment-item {
+  display: flex; /* Flexbox layout */
+  align-items: flex-start; /* Align items at the top */
+  margin-bottom: 15px; /* Space between comments */
+  padding: 10px; /* Padding inside each comment */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background */
+}
+
+/* User image style */
+.comment-user-img {
+  width: 50px; /* Width of user image */
+  height: 50px; /* Height of user image */
+  border-radius: 50%; /* Circular image */
+  margin-right: 15px; /* Space to the right of the image */
+  border: 2px solid #ddd; /* Border around the image */
+}
+
+/* Details of the comment */
+.comment-details {
+  flex-grow: 1; /* Allow details to take up remaining space */
+}
+
+/* User name style */
+.comment-user-name {
+  font-weight: bold; /* Bold text */
+  color: #007bff; /* Blue color */
+  margin-bottom: 5px; /* Space below user name */
+}
+
+/* Comment text style */
+.comment-text {
+  margin-bottom: 5px; /* Space below comment text */
+  color: #555; /* Dark gray text color */
+}
+
+/* Style for attachments */
+.comment-attachment {
+  max-width: 100%; /* Ensure attachment fits within container */
+  margin-top: 5px; /* Space above attachment */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for audio elements */
+audio {
+  display: block; /* Block display for audio */
+  margin-top: 5px; /* Space above audio element */
+}

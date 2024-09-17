@@ -1,0 +1,61 @@
+/* src/components/CommentBox.css */
+
+/* Styles for the comment box */
+.comment-box {
+  background-color: rgba(220, 220, 220, 0.8); /* Semi-transparent gray background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 12px; /* Padding inside the box */
+  width: 250px; /* Fixed width */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  z-index: 1000; /* Ensure it appears on top */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font style */
+}
+
+/* Styles for the textarea inside the comment box */
+.comment-box textarea {
+  width: 100%; /* Full width of the comment box */
+  border-radius: 6px; /* Rounded corners */
+  padding: 8px; /* Padding inside the textarea */
+  box-sizing: border-box; /* Include padding in width */
+  font-size: 14px; /* Font size */
+  resize: none; /* Prevent resizing */
+  margin-bottom: 12px; /* Spacing below the textarea */
+}
+
+/* Styles for file upload inputs */
+.file-upload {
+  margin-bottom: 12px; /* Space below file upload inputs */
+}
+
+.file-upload label {
+  font-weight: bold; /* Bold labels */
+  display: block; /* Block display */
+  margin-bottom: 6px; /* Space below label */
+}
+
+/* Styles for action buttons (Submit and Cancel) */
+.comment-box-actions {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between buttons */
+}
+
+.comment-box-actions button {
+  padding: 6px 12px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 14px; /* Font size */
+}
+
+/* Submit button style */
+.comment-box-actions button:nth-child(1) {
+  background-color: #434ed0; /* Blue-purple background */
+  color: white; /* White text */
+}
+
+/* Cancel button style */
+.comment-box-actions button:nth-child(2) {
+  background-color: #9c342c; /* Red background */
+  color: white; /* White text */
+}

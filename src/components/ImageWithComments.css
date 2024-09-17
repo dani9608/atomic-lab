@@ -1,0 +1,28 @@
+.image-with-comments-container {
+  display: flex; /* Flexbox layout */
+}
+
+.image-container {
+  position: relative; /* Position for comment icons */
+  cursor: pointer; /* Pointer cursor for clicking */
+}
+
+.comment-icon {
+  position: absolute;
+  width: 30px; /* Size of comment icon */
+  height: 30px;
+  border-radius: 50%; /* Circle shape */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the icon */
+}
+
+.image {
+  max-width: 100%; /* Responsive image */
+}
+
+.comment-section {
+  margin-left: 20px; /* Space between image and comments */
+  flex: 1; /* Flex to fill remaining space */
+}

@@ -1,18 +1,24 @@
 # Image Comments Feature
 
-This project allows users to leave comments on specific points within an image. The icon of the person who left the comment will appear on the image at the comment's location and will also be reflected in the comment history on the right side. Users can leave text comments, voice notes, or upload images.
+This project enables users to leave comments at specific locations on an image. Each comment is marked by the icon of the user who left it, which appears at the comment's location on the image. Additionally, all comments are listed on the right side of the image. Users can leave text comments, voice notes, or upload images.
 
 ## User Stories
 
-The following **required** functionality is completed:
+The following **required** functionalities have been implemented:
 
-- [X] User can leave comments at specific positions on an image. 
-- [X] User's icon appears on the image at the comment's location. (still having coordinate issues)
-- [X] User can view a list of comments on the right side of the image. 
-- [X] User can choose to leave a text comment, voice note, or upload an image.
+- [X] Users can place comments at specific points on an image.
+- [X] The icon of the user who left a comment appears at the comment's location on the image. (Note: There are some coordinate issues currently.)
+- [X] Users can view a list of comments on the right side of the image.
+- [X] Users can leave a comment in text format, as a voice note, or by uploading an image.
+
+## Deployment URL
+
+You can view and interact with the deployed project at the following URL:
+
+[Live Demo](https://superb-yeot-f6eae5.netlify.app/)
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+A video walkthrough demonstrating the implemented features can be viewed here:
 
-![](URL-to-your-video.gif)
+![Video Walkthrough](URL-to-your-video.gif)

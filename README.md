@@ -48,4 +48,4 @@ Puede ver e interactuar con el proyecto implementado en la siguiente URL:
 
 Puede ver un tutorial en video que muestra las funciones implementadas aquí:
 
-[Video Walkthrough]([URL-to-your-video.gif](https://www.loom.com/share/56082896e4ac4dc181638ef259b9fc4d?sid=49f74349-a435-43b9-b1b3-9a53269ce4bc))
+[Ver Video](https://www.loom.com/share/56082896e4ac4dc181638ef259b9fc4d?sid=49f74349-a435-43b9-b1b3-9a53269ce4bc)
